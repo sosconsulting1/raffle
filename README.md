@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## How To Edit The Site
+
+# Page Phone Number
+Navigate to app > components > NavBar.js > scroll to the bottom and change phone number
+
+# Timer
+Navigate to app > components > Countdown.js > adjust date settings. Chatgpt assistance may be needed. If so copy the code exactly how it is a create a prompt like "I want the count down to start at 6 days instead"
+
+
+# Page Leading title
+Navigate to app > page.js > edit the h1 under comment {/* Leading Title & Timer */}
+
+# Carousal
+Drag the images you want into the public folder
+
+Navigate to app > components > CarousalComponent.js > 
+
+Go to the image you want change and change it's tag by replacing it's "src" with the name of the file and file extension
+
